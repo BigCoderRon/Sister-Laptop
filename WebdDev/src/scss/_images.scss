@@ -1,0 +1,26 @@
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    background-attachment: fixed;
+    /* fixed = parallax
+       scroll = normal
+    */
+    
+}
+
+.pimg1{
+    background-image: url('/WebdDev/src/images/image1.jpg');
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url('/WebdDev/src/images/image2.jpg');
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url('/WebdDev/src/images/image3.jpg');
+    min-height: 400px;
+}
